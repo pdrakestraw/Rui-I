@@ -7,7 +7,7 @@ import os
 p = pyaudio.PyAudio()
 
 #Loading and configuring Piper voice, 
-voice = PiperVoice.load("voices/en_GB-northern_english_male-medium.onnx")
+voice = PiperVoice.load("voices/en_GB-alan-medium.onnx")
 syn_config = SynthesisConfig(
     volume=0.5,
     length_scale=1.25,
